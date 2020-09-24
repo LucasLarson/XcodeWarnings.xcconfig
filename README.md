@@ -1,7 +1,7 @@
 # XcodeWarnings.xcconfig
 
-This is a kitchen-sink, army-knife `xcconfig` file for to alert a software
-developer to as many potential problems as possible, without preventing
+This is a kitchen-sink, army-knife `xcconfig` file to alert software
+developers to as many potential Xcode problems as possible, without preventing
 potentially successful&nbsp;builds.
 
 ## Sources
