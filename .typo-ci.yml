@@ -30,15 +30,18 @@ excluded_files:
 
 # Known spellings to ignore
 excluded_words:
+  - Affero  # GNU Affero Public License
   - Algis  # guillaumealgis/XcodeWarningsAsXcconfig
   - Biffle
   - calibreapp
   - Crashlytics
   - csharp  # CodeQL Analysis
   - cyberciti  # cyberciti.biz
+  - esolang
   - ffs
   - guillaumealgis  # guillaumealgis/XcodeWarningsAsXcconfig
   - ibiqlik  # ibiqlik/action-yamllint
+  - imgbotconfig  # dabutvin/Imgbot
   - jonreid  # jonreid/XcodeWarnings
   - LucasLarson
   - Mackup
@@ -53,6 +56,7 @@ excluded_words:
 
   # AsciiDoc
   - adoc
+  - toclevels
 
   # CSS
   - webtv
@@ -85,6 +89,7 @@ excluded_words:
   - ftrapv
   - gch
   - gcno
+  - gkd
   - ifndef
   - lai
   - latomic
@@ -95,9 +100,11 @@ excluded_words:
   - slo
   - smod
   - strnlen
+  - symvers  # github/gitignore@a080e36
   - unsequenced
   - Wcall
   - Wdefaulted
+  - webfont
   - Weffc
   - Wextra
   - Wmemset
@@ -108,7 +115,8 @@ excluded_words:
 
   # Git
   - gmv  # homemade alias to `git mv`
-  - gunstage
+  - gunstage  # `🔫  `git unstage` as a service https://git.io/gunstage
+  - lsi  # Jekyll’s latent semantic indexing
   - osxkeychain
   - unstage
   - unstagers
@@ -118,7 +126,17 @@ excluded_words:
   - gitsubmodule
   - gomod
   - Liberapay
+  - ossar
   - Otechie
+  - sarif  # OSSAR
+
+  # Gitpod
+  - bastet  # gitpod-io/gitpod
+  - runtimes
+  - tetris
+
+  # Google
+  - gtag
 
   # JetBrains
   - iml
@@ -127,6 +145,9 @@ excluded_words:
   - mpeltonen
   - replstate
   - sbt-idea
+
+  # Linux
+  - nfs  # github/gitignore@4f7062e
 
   # macOS
   - donotpresent
@@ -137,6 +158,26 @@ excluded_words:
 
   # TextMate
   - tmbundle
+
+  # Visual Studio
+  # https://github.com/github/gitignore/blob/218a9/VisualStudio.gitignore
+  - aps
+  - ipch
+  - ncb
+  - ogs  # [Ll]ogs/
+  - opensdf
+  - scc
+  - sdf
+  - svclog
+  - tli
+
+  # Windows
+  # https://github.com/toptal/gitignore/blob/78659/templates/Windows.gitignore
+  - ekstop  # [Dd]esktop.ini
+  - lnk
+  - msix
+  - msm
+  - msp
 
   # Xcode
   - bcmp
