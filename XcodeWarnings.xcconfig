@@ -248,5 +248,6 @@ WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang valist.Unini
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang valist.Unterminated
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang webkit.NoUncountedMemberChecker
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang webkit.RefCntblBaseVirtualDtor
+WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang webkit.UncountedLambdaCapturesChecker
 
 WARNING_CFLAGS = $(inherited) $(WAX_ANALYZER_FLAGS)
