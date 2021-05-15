@@ -246,5 +246,6 @@ WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang unix.cstring
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang valist.CopyToSelf
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang valist.Uninitialized
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang valist.Unterminated
+WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang webkit.RefCntblBaseVirtualDtor
 
 WARNING_CFLAGS = $(inherited) $(WAX_ANALYZER_FLAGS)
