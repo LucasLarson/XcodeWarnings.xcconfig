@@ -187,6 +187,7 @@ WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang cplusplus.In
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang cplusplus.Move
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang cplusplus.NewDelete
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang cplusplus.NewDeleteLeaks
+WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang cplusplus.PlacementNew
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang cplusplus.PureVirtualCall
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang deadcode.DeadStores
 WAX_ANALYZER_FLAGS = $(inherited) -Xclang -analyzer-checker -Xclang fuchsia.HandleChecker
